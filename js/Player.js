@@ -28,7 +28,7 @@ this.fuel = 185;
       score: this.score,
     });
   }
-  //TA
+  //AM
   getDistance() {
     var playerDistanceRef = database.ref("players/player" + this.index);
     playerDistanceRef.on("value", data => {
@@ -53,7 +53,7 @@ this.fuel = 185;
     });
   }
 
-  //SA
+  //AA
   update() {
     var playerIndex = "players/player" + this.index;
     database.ref(playerIndex).update({
